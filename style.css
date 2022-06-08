@@ -65,6 +65,7 @@ form button:hover {
   transition: all 0.5s ease;
 }
 .todo li {
+  min-width: 15rem;
   flex: 1;
 }
 
@@ -146,7 +147,7 @@ select {
   background: #8e94f2;
   top: 0;
   right: 0;
-  padding: 1rem;
+  padding: 1.2rem;
   pointer-events: none;
 }
 .select:hover::after {
